@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          HRIS ko lang!
+          Employees!
         </q-toolbar-title>
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->

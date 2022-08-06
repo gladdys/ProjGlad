@@ -9,7 +9,7 @@
           <q-input dense outlined v-model = "gdata.edept" label="Department"/>
           <q-input dense outlined v-model = "gdata.epost" label="Position"/>
           <q-btn sice="sm" @click="add" icon="add" color="green">ADD</q-btn>
-          {{ gdata.editingID }} try
+          <!-- {{ gdata.editingID }} try -->
           <q-btn sice="sm" @click="testEditingID" icon="save" color="orange">SAVE UPDATE</q-btn>
         </div>
     </q-card-section>
@@ -63,7 +63,6 @@ onMounted(async () => {
   })
   $entryService.init()
 })
-//paayos
 
 const gdata = reactive({
   ecode: '',
